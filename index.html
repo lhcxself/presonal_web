@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <title>test</title>
+    <link rel="stylesheet" href="arrange.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left container1" style="margin: 0px; padding: 0px">
+        <div class="box container1">
+          <img
+            src="touxiang.jpg"
+            alt="头像"
+            style="width: 80px; height: 80px; border-radius: 50%"
+          />
+          <p><font size="5">浪花春雪</font></p>
+        </div>
+
+        <div class="box">
+          <button id="btn1" class="custom-button custom-button:hover">
+            个人简介
+          </button>
+        </div>
+        <div class="box">
+          <button id="btn2" class="custom-button custom-button:hover">
+            平台账号
+          </button>
+        </div>
+        <div class="box">
+          <button id="btn3" class="custom-button custom-button:hover">
+            作品预览
+          </button>
+        </div>
+      </div>
+
+      <div class="right container1" style="margin: 0px; padding: 0px">
+        <div
+          class="box1 flex1"
+          style="background-color: #c6cbde; margin: 0px; padding: 0px"
+        >
+          <p><font size="7">浪花春雪的个人网站</font></p>
+        </div>
+        <div class="box1 flex3 container1" id="content2">
+          <p>
+            <font size="5"
+            姓名：浪花春雪<br />
+            专业：计算机科学与技术<br />
+            所在地：广东省<br />
+            邮箱： huangkunpei6@gmail.com<br />
+            p站id:浪花春雪<br />
+            x:@lhcx_self<br /><br /><br /><br />
+            简介：<br />
+            我是一名计算机科学与技术专业的学生<br />
+            喜欢编程，热爱计算机，对前端开发充满兴趣<br />
+            日常生活中喜欢于空闲时间绘制插画
+            </font>
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--首页内容-->
+    <div id="shouye" style="display: none">
+      <div class="box2 flex1">
+        <p>
+          <font size="5"
+          姓名：浪花春雪<br />
+          专业：计算机科学与技术<br />
+          所在地：广东省<br />
+          邮箱： huangkunpei6@gmail.com<br />
+          p站id:浪花春雪<br />
+          x:@lhcx_self<br /><br /><br /><br />
+          简介：<br />
+          我是一名计算机科学与技术专业的学生<br />
+          喜欢编程，热爱计算机，对前端开发充满兴趣<br />
+          日常生活中喜欢于空闲时间绘制插画
+          </font>
+          <br />
+        </p>
+      </div>
+    </div>
+    <!--平台账号-->
+    <div id="zhanghao" style="display: none">
+      <div class="box2 flex1"><a href="https://www.pixiv.net/users/77495009" target="_blank">P站个人主页链接</a></div>
+      <div class="box2 flex1"><a href="https://space.bilibili.com/136916678" target="_blank">b站个人主页链接</a></div>
+    </div>
+    <!--作品预览-->
+    <div id="zuopin" style="display: none">
+      <div class="box2 flex1 carousel  container1">   
+        <img src="image1.jpg" alt="图片1" class="carousel-image active">
+        <img src="image2.jpg" alt="图片2" class="carousel-image">
+        <img src="image3.jpg" alt="图片3" class="carousel-image">
+        <img src="image4.png" alt="图片4" class="carousel-image">
+        <img src="image5.jpg" alt="图片5" class="carousel-image">
+        <button id="nextImageBtn">下一张</button>
+      </div>
+
+    </div>
+    <!-- 按钮点击事件 -->
+    <script src="control_of_button.js">
+    </script>
+  </body>
+</html>

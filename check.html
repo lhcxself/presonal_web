@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>图片轮播示例</title>
+  <style>
+    .carousel-image {
+      display: none;
+    }
+    .carousel-image.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="box2 flex1"><a href="https://www.pixiv.net/users/77495009" target="_blank">P站个人主页链接</a></div>
+  <div class="box2 flex1"><a href="https://space.bilibili.com/136916678" target="_blank">b站个人主页链接</a></div>
+  </div>
+  <!--作品预览-->
+  <div id="zuopin" style="display: none">
+    <div class="box2 flex1 carousel container1">   
+      <img src="image1.jpg" alt="图片1" id="image1" class="carousel-image active">
+      <img src="image2.jpg" alt="图片2" id="image2" class="carousel-image">
+      <img src="image3.jpg" alt="图片3" id="image3" class="carousel-image">
+      <img src="image4.png" alt="图片4" id="image4" class="carousel-image">
+      <img src="image5.jpg" alt="图片5" id="image5" class="carousel-image">
+      <button id="nextImageBtn">下一张</button>
+    </div>
+  </div>
+  <!-- 按钮点击事件 -->
+  <script src="control_of_button.js"></script>
+</body>
+</html>
